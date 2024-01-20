@@ -2,7 +2,7 @@
     "system": {
         "get_sysinfo": {
             "active_mode": "none",
-            "alias": "Uk plug",
+            "alias": "#MASKED_NAME#",
             "dev_name": "Smart Wi-Fi Plug",
             "deviceId": "0000000000000000000000000000000000000000",
             "err_code": 0,
@@ -13,7 +13,7 @@
             "latitude_i": 0,
             "led_off": 0,
             "longitude_i": 0,
-            "mac": "00:00:00:00:00:00",
+            "mac": "D8:47:32:00:00:00",
             "mic_type": "IOT.SMARTPLUGSWITCH",
             "model": "KP105(UK)",
             "next_action": {
@@ -24,8 +24,8 @@
             "oemId": "00000000000000000000000000000000",
             "on_time": 0,
             "relay_state": 0,
-            "rssi": -48,
-            "status": "new",
+            "rssi": -67,
+            "status": "configured",
             "sw_ver": "1.0.7 Build 210506 Rel.153510",
             "updating": 0
         }
