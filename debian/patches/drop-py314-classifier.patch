@@ -1,0 +1,17 @@
+Description: Drop the Python 3.14 classifier
+ hatchling 1.21 in Ubuntu 24.04 checks classifiers against a list that does
+ not have "Programming Language :: Python :: 3.14" yet, and refuses to build.
+ The classifier is metadata only; the package still runs on 3.14.
+Author: Robert August Vincent II (Bob) <pillarsdotnet@gmail.com>
+Forwarded: not-needed
+Last-Update: 2026-10-02
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -21,7 +21,6 @@ classifiers = [
+     "Programming Language :: Python :: 3.11",
+     "Programming Language :: Python :: 3.12",
+     "Programming Language :: Python :: 3.13",
+-    "Programming Language :: Python :: 3.14",
+ ]
+ 
+ [project.optional-dependencies]
