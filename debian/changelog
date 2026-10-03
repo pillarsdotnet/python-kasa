@@ -1,0 +1,8 @@
+python-kasa (0.10.2+git20260930.998ebe7-1~ppa1~ubuntu26.04.1) resolute; urgency=medium
+
+  * Initial package, from upstream git 998ebe7 (2026-09-30), for the KLAP v2
+    login fix (upstream PR 1731) that EP10 firmware 1.1.x needs.
+  * d/p/relax-mashumaro.patch: accept mashumaro >= 3.15.
+  * d/p/drop-py314-classifier.patch: let hatchling 1.21 (24.04) build it.
+
+ -- Robert August Vincent II (Bob) <pillarsdotnet@gmail.com>  Fri, 02 Oct 2026 22:15:00 -0400

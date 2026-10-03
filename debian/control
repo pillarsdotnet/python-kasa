@@ -1,0 +1,45 @@
+Source: python-kasa
+Section: python
+Priority: optional
+Maintainer: Robert August Vincent II (Bob) <pillarsdotnet@gmail.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-hatchling,
+ python3-aiohttp <!nocheck>,
+ python3-asyncclick <!nocheck>,
+ python3-cryptography <!nocheck>,
+ python3-freezegun <!nocheck>,
+ python3-mashumaro (>= 3.15) <!nocheck>,
+ python3-pytest <!nocheck>,
+ python3-pytest-asyncio <!nocheck>,
+ python3-pytest-freezer <!nocheck>,
+ python3-pytest-mock <!nocheck>,
+ python3-pytest-socket <!nocheck>,
+ python3-pytest-xdist <!nocheck>,
+ python3-voluptuous <!nocheck>,
+ python3-xdoctest <!nocheck>,
+ tzdata <!nocheck>,
+ tzdata-legacy <!nocheck>,
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://github.com/python-kasa/python-kasa
+
+Package: python3-kasa
+Architecture: all
+Depends:
+ tzdata,
+ tzdata-legacy,
+ ${misc:Depends},
+ ${python3:Depends},
+Recommends:
+ python3-orjson,
+Description: Python API for TP-Link Kasa and Tapo smart devices
+ python-kasa controls TP-Link Kasa and Tapo smart plugs, power strips,
+ switches, bulbs and cameras on the local network, without the vendor's
+ cloud. It provides an asyncio library and the "kasa" command-line tool.
+ .
+ This build is a snapshot of upstream git, for the KLAP v2 login fix that
+ EP10 plugs on firmware 1.1.x need, which is not in a release yet.
