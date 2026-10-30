@@ -44,5 +44,6 @@ Description: Python API for TP-Link Kasa and Tapo smart devices
  switches, bulbs and cameras on the local network, without the vendor's
  cloud. It provides an asyncio library and the "kasa" command-line tool.
  .
- This build is a snapshot of upstream git, for the KLAP v2 login fix that
- EP10 plugs on firmware 1.1.x need, which is not in a release yet.
+ This build tracks upstream releases, which Ubuntu's archives trail: the
+ KLAP v2 login fix that EP10 plugs on firmware 1.1.x need arrived in
+ 0.12.0, while the newest archive build anywhere is 0.10.2.
