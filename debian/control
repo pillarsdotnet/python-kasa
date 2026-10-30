@@ -2,17 +2,20 @@ Source: python-kasa
 Section: python
 Priority: optional
 Maintainer: Robert August Vincent II (Bob) <pillarsdotnet@gmail.com>
+# The library dependencies stay unconditional: dh_python3 writes
+# ${python3:Depends} from the packages it finds installed, so a nocheck
+# build (the noble fallback) without them ships a deb that cannot import.
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-python3,
  pybuild-plugin-pyproject,
  python3-all,
  python3-hatchling,
- python3-aiohttp <!nocheck>,
- python3-asyncclick <!nocheck>,
- python3-cryptography <!nocheck>,
+ python3-aiohttp,
+ python3-asyncclick,
+ python3-cryptography,
  python3-freezegun <!nocheck>,
- python3-mashumaro (>= 3.15) <!nocheck>,
+ python3-mashumaro (>= 3.15),
  python3-pytest <!nocheck>,
  python3-pytest-asyncio <!nocheck>,
  python3-pytest-freezer <!nocheck>,
@@ -21,8 +24,8 @@ Build-Depends:
  python3-pytest-xdist <!nocheck>,
  python3-voluptuous <!nocheck>,
  python3-xdoctest <!nocheck>,
- tzdata <!nocheck>,
- tzdata-legacy <!nocheck>,
+ tzdata,
+ tzdata-legacy,
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
 Homepage: https://github.com/python-kasa/python-kasa
