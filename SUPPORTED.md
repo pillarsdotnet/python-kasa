@@ -32,6 +32,7 @@ Some newer Kasa devices require authentication. These are marked with [^1] in th
   - Hardware: 1.0 (US) / Firmware: 1.5.7
   - Hardware: 2.1 (US) / Firmware: 1.1.2
   - Hardware: 2.1 (US) / Firmware: 1.1.4
+  - Hardware: 5.0 (US) / Firmware: 1.0.3
 - **HS105**
   - Hardware: 1.0 (US) / Firmware: 1.5.6
 - **HS110**
@@ -183,13 +184,17 @@ Some newer Kasa devices require authentication. These are marked with [^1] in th
   - Hardware: 1.0 (EU) / Firmware: 1.2.3[^1]
   - Hardware: 1.0 (EU) / Firmware: 1.5.12[^1]
   - Hardware: 1.0 (UK) / Firmware: 1.5.6[^1]
+  - Hardware: 1.0 (UK) / Firmware: 1.7.5[^1]
 
 ### Hub-Connected Devices
 
 - **KE100**
   - Hardware: 1.0 (EU) / Firmware: 2.4.0[^1]
   - Hardware: 1.0 (EU) / Firmware: 2.8.0[^1]
+  - Hardware: 1.0 (UK) / Firmware: 2.15.0[^1]
   - Hardware: 1.0 (UK) / Firmware: 2.8.0[^1]
+- **KE110**
+  - Hardware: 1.0 (EU) / Firmware: 1.4.0[^1]
 
 
 ## Tapo devices
@@ -215,6 +220,8 @@ All Tapo devices require authentication.<br>Hub-Connected Devices may work acros
 - **P115**
   - Hardware: 1.0 (EU) / Firmware: 1.2.3
   - Hardware: 1.0 (US) / Firmware: 1.1.3
+- **P116M**
+  - Hardware: 1.0 (IN) / Firmware: 1.4.4
 - **P125M**
   - Hardware: 1.0 (US) / Firmware: 1.1.0
   - Hardware: 1.0 (US) / Firmware: 1.4.4
@@ -348,6 +355,8 @@ All Tapo devices require authentication.<br>Hub-Connected Devices may work acros
   - Hardware: 1.0 (US) / Firmware: 1.1.9
 - **D230**
   - Hardware: 1.20 (EU) / Firmware: 1.1.19
+- **TD21**
+  - Hardware: 2.0 (EU) / Firmware: 1.1.5
 
 ### Vacuums
 
